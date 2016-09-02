@@ -39,7 +39,7 @@ def synaptic_partners_fscore(rec_annotations, gt_annotations, gt_segmentation, m
     costs = cost_matrix(rec_annotations, gt_annotations, gt_segmentation, matching_threshold)
 
     # match using Hungarian method
-    print "Finding cost-minimal matches..."
+    print("Finding cost-minimal matches...")
     munkres = Munkres()
     matches = munkres.compute(costs.copy()) # have to copy, because munkres changes the cost matrix...
 
