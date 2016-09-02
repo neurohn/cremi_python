@@ -29,7 +29,7 @@ class NeuronIds:
 
         if self.border_threshold:
 
-            print "Computing border mask..."
+            print("Computing border mask...")
 
             self.gt = np.zeros(groundtruth.data.shape, dtype=np.uint64)
             create_border_mask(
