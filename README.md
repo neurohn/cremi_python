@@ -2,6 +2,7 @@ CREMI Python Scripts
 ====================
 
 Python scripts associated with the [CREMI Challenge](http://cremi.org).
+Readied for Python3 by `neurohn`
 
 Installation
 ------------
@@ -9,7 +10,7 @@ Installation
 If you are using `pip`, installing the scripts is as easy as
 
 ```
-pip install git+https://github.com/cremi/cremi_python.git
+pip install git+https://github.com/neurohn/cremi_python.git
 ```
 
 Alternatively, you can clone this repository yourself and use `distutils`
