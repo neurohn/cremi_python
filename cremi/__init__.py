@@ -1,4 +1,1 @@
-from Annotations import *
-from Volume import *
-from io import *
-from evaluation import *
+__all__ = ['Annotations', 'Volume', 'io', 'evaluation']
