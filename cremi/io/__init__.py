@@ -1,1 +1,1 @@
-from CremiFile import *
+__all__ = ['CremiFile']
